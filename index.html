@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Mini App</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+  </head>
+  <body>
+    
+    <button id="filter-query" class="mdc-icon-button material-icons" type="button">filter_list</button>
+   <div class="select">
+  <select class="select-text">
+    <option disabled selected>Select User</option>
+  </select>
+</div>
+
+<div class="user-photo">
+  <img src="https://via.placeholder.com/150" alt="user photo">
+</div>
+
+<div class="details mdc-elevation--z3">
+  <p>
+    <span class="prop" data-age>Age :</span>
+    <span class="value" data-age-value></span>
+  </p>
+  <p>
+    <span class="prop" data-height>Height :</span>
+    <span class="value" data-height-value></span>
+  </p>
+  <p>
+    <span class="prop" data-weight>Weight :</span>
+    <span class="value" data-weight-value></span>
+  </p>
+  <p>
+    <span class="prop" data-gender>Gender :</span>
+    <span class="value" data-gender-value></span>
+  </p>
+  <p>
+    <span class="prop" data-country>Country :</span>
+    <span class="value" data-country-value></span>
+  </p>
+</div>
+
+<button id="oracle" class="mdc-button">Calculate BMI</button>
+<div id="outcome"><h5 class="mdc-typography--headline5" >BMI</h5><p class="bmi-text"></p>
+</div>
+<script  src="js/index.js"></script>
+</body>
+
+</html>

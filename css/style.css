@@ -1,0 +1,47 @@
+div.user-photo {
+    margin: 1em auto;
+     width: 150px;
+
+    height:150px;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+  }
+  body{background:#ffffff}
+  div.select{margin-bottom:2.5em}
+   div.details{color:#ffffff; 
+  background-color:#6200ee; font-size:1.3em; 
+    margin-top:4em; 
+    padding:0.5em 1em 0.5em 1em; 
+    border-radius:10px;}
+  .details p{margin:0.3em}
+  div#outcome{position:absolute; 
+    right:2.2em; 
+    bottom:6.5em; 
+    width:100px;
+    text-align:center}
+  #outcome h5{padding:1em; 
+    background:#ffffff; 
+    border-radius:10%; 
+    margin:0 }
+  #outcome p{height:40px; 
+    color:#ffffff;
+    border-bottom:5px solid #ffffff; 
+    font-size:2em; 
+    margin:0; 
+    padding:0.5em 0 0.5em 0;}
+   #oracle{
+     background:#6200ee; 
+    margin-top:2.5em; 
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;}
+    
